@@ -256,7 +256,7 @@ nav .navbar ul li a div :nth-child(9):hover {
     position: relative;
     padding-left: 20px;
     padding-right: 20px;
-    background: linear-gradient(to top left, rgba(0, 3, 36, 0.8) 65%, rgba(0, 3, 36, 0.6) 50%), url(/resources/assets/images/programming-background-collage\ \(1234\).jpg) 10% / cover no-repeat;
+    background: linear-gradient(to top left, rgba(0, 3, 36, 0.8) 65%, rgba(0, 3, 36, 0.6) 50%), url("/resources/assets/images/programming-background-collage\ \(1234\).jpg") 10% / cover no-repeat;
 
 }
 
