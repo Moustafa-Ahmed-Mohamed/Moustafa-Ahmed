@@ -1,0 +1,1073 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: var(--first-font);
+}
+
+:root {
+    --orang-color: #e36d21;
+    --grey-color: #bdc1c6;
+    --blue-color: rgb(0, 3, 36);
+    --Secondary-color: #151c25;
+    --first-font: "Poppins", sans-serif;
+    --padding-left: 5.25rem;
+    --padding-right: 5.25rem;
+}
+
+
+/*==============================
+ START nav bar PAGE START
+===============================*/
+
+
+nav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    /* border-right: 0px solid var(--orang-color); */
+    top: 0;
+    left: 0;
+    background: var(--blue-color);
+    z-index: 999;
+    transition: all linear 0.3s;
+}
+
+nav .navbar .logo {
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+    background-color: transparent;
+}
+
+nav .navbar .logo img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav .navbar ul {
+    padding: 30px;
+    max-height: 730px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+nav .navbar ul li a {
+    color: var(--orang-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: 1px solid #e36d211a;
+    display: block;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0;
+    outline: 0;
+    background: transparent;
+    /* transition: all 0.3s ease-in-out; */
+    box-shadow: 2px 6px 6px 2px #e36d211a;
+    display: flex;
+    align-items: center;
+    width: 188px;
+    height: 60px;
+    font-family: var(--first-font);
+}
+
+nav .navbar ul li a:hover {
+    color: var(--grey-color);
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li .navbar-items:active {
+    color: var(--grey-color);
+}
+
+
+nav .navbar ul li a span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    /* margin-right: 17px; */
+    font-size: 24px;
+    transition: all ease-in-out 0.3s;
+    /* background-color: var(--orang-color); */
+}
+
+nav .navbar ul li a span:hover {
+    transition: 0.5s ease-in-out;
+}
+
+nav .navbar ul li a span svg {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s ease-in-out;
+    color: var(--orang-color);
+}
+
+nav .navbar ul li a span svg:hover {
+    transform: rotate(-360deg);
+}
+
+nav .navbar ul li a div {
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a .menu-text:hover {
+    transform: scale(1, 1.5);
+}
+
+
+nav .navbar ul li a div div {
+    backface-visibility: hidden;
+    transition: 0.3s ease-in-out;
+    margin-right: 0.5px;
+}
+
+nav .navbar ul li a div :nth-child(1) {
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(2) {
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(3) {
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(4) {
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(5) {
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(6) {
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(7) {
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(8) {
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(9) {
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(1):hover {
+    transform: rotate(-360deg);
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(2):hover {
+    transform: rotate(-360deg);
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(3):hover {
+    transform: rotate(-360deg);
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(4):hover {
+    transform: rotate(-360deg);
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(5):hover {
+    transform: rotate(-360deg);
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(6):hover {
+    transform: rotate(-360deg);
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(7):hover {
+    transform: rotate(-360deg);
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(8):hover {
+    transform: rotate(-360deg);
+    transition: 0.3s ease-in-out;
+}
+
+nav .navbar ul li a div :nth-child(9):hover {
+    transform: rotate(-360deg);
+    transition: 0.3s ease-in-out;
+}
+
+
+/*==============================
+  END nav bar PAGE START
+===============================*/
+.main-sections {
+    background-color: black;
+}
+
+.main-sections .main-sections-continer {
+    padding-left: 250px;
+}
+
+/*==============================
+  START HEADER PAGE START
+===============================*/
+
+.main-sections .main-sections-continer .header-section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(to top left, rgba(0, 3, 36, 0.8) 65%, rgba(0, 3, 36, 0.6) 50%), url(/resources/assets/images/programming-background-collage\ \(1234\).jpg) 10% / cover no-repeat;
+
+}
+
+.main-sections .main-sections-continer .header-section .header-continer {
+    height: 100%;
+    width: 100%;
+
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content {
+    width: 100%;
+    padding-inline: 12px;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text h1 {
+    margin-bottom: 5px;
+    margin-top: 35px;
+    font-size: 60px;
+    font-weight: 700;
+    /* max-width: 100%; */
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: var(--grey-color);
+    font-family: var(--first-font);
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text h2 {
+    margin-bottom: 35px;
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: var(--grey-color);
+    font-family: var(--first-font);
+    align-self: flex-start;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text h2 span {
+    margin-bottom: 35px;
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: var(--orang-color);
+    font-family: var(--first-font);
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text span .cd-words-wrapper {
+    width: 300px;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text span .cd-words-wrapper b {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    left: 10px;
+    top: 6px;
+    opacity: 0;
+    transform-origin: 50% 100%;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text span .cd-words-wrapper .is-visible {
+    opacity: 0;
+    animation: cd-rotate-1-in 3s 0.5s ease-in-out infinite;
+    transform: rotateX(0);
+}
+
+@keyframes cd-rotate-1-in {
+    0% {
+        transform: rotateX(180deg);
+        opacity: 0;
+    }
+
+    35% {
+        transform: rotateX(120deg);
+        opacity: 0;
+    }
+
+
+    65% {
+        /* transform: rotateX(270deg); */
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateX(360deg);
+        opacity: 1;
+    }
+
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text span .cd-words-wrapper .is-hidden {
+    opacity: 1;
+    animation: cd-rotate-1-out 3s 0.5s ease-in-out infinite;
+    transform: rotateX(180deg)
+}
+
+@keyframes cd-rotate-1-out {
+    0% {
+
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+
+    35% {
+        transform: rotateX(-40deg);
+        opacity: 1;
+    }
+
+
+    65% {
+        /* transform: rotateX(90deg); */
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateX(270deg);
+        opacity: 0;
+    }
+
+}
+
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text p {
+    font-weight: 500;
+    margin-bottom: 65px;
+    color: var(--grey-color);
+    line-height: 1.7;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    max-width: 90%;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text p span {
+    font-size: 1.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #e36d21;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social button {
+    padding: 20px 30px;
+    display: flex;
+    gap: .5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 0;
+    color: #e36d21;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 30px 10px 30px 10px;
+    box-shadow: -10px 2px 2px 2px #e36d21;
+    transition: 0.5s ease-in-out;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text button:hover {
+    background-color: transparent;
+    color: var(--grey-color);
+    transition: 0.5s ease-in-out;
+    border-radius: 10px 30px 10px 30px;
+    box-shadow: 1px 1px 1px 1px #e36d21;
+    transform: translateY(-10px);
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text button i {
+    animation: bouncing 0.5s ease-in-out infinite;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text button i:hover {
+    transform: rotate(180deg);
+    transition: 1s ease-in-out;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social .social-media {
+    background-color: transparent;
+    border-radius: 30px 10px 30px 10px;
+    box-shadow: -10px 2px 2px 2px #e36d21;
+    font-size: 1rem;
+    height: 63.2px;
+    width: 240.43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    gap: 2rem;
+    transition: 0.5s ease-in-out;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social .social-media:hover {
+    background-color: transparent;
+    color: #e36d21;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px 30px 10px 30px;
+    box-shadow: 1px 1px 1px 1px #e36d21;
+    transform: translateY(-10px);
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social .social-media i {
+    font-size: 1.7rem;
+    color: var(--orang-color);
+    transition: 0.3s ease-in-out;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social .social-media .fa-facebook {
+    animation: bouncing 0.5s ease-in-out infinite;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social .social-media .fa-whatsapp {
+    animation: bouncing 0.7s ease-in-out infinite;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social .social-media .fa-instagram {
+    animation: bouncing 0.5s ease-in-out infinite;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social .social-media .fa-linkedin-in {
+    animation: bouncing 0.7s ease-in-out infinite;
+}
+
+@keyframes bouncing {
+    0% {
+        transform: translateY(0);
+        transition: 1s ease-in-out;
+    }
+
+    40% {
+        transform: translateY(5px);
+        transition: 1s ease-in-out;
+    }
+
+    60% {
+        transform: translateY(-5px);
+        transition: 1s ease-in-out;
+    }
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social .social-media .fa-facebook:hover {
+    color: #0165E1;
+    transform: rotate(180deg);
+    transition: 0.5s ease-in-out;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social .social-media .fa-whatsapp:hover {
+    color: #25D366;
+    transform: rotate(180deg);
+    transition: 0.5s ease-in-out;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social .social-media .fa-instagram:hover {
+    color: #833AB4;
+    transform: rotate(180deg);
+    transition: 0.5s ease-in-out;
+}
+
+.main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social .social-media .fa-linkedin-in:hover {
+    color: #0A66C2;
+    transform: rotate(180deg);
+    transition: 0.5s ease-in-out;
+}
+
+
+
+/*==============================
+  End HEADER PAGE section
+===============================*/
+
+/*==============================
+  START about me section
+===============================*/
+.about-me-section {
+    padding-left: 5.25rem;
+    padding-right: 5.25rem;
+    padding-block: 4.5rem;
+    background-color: #cc621e;
+    /* background: linear-gradient(45deg , rgba(0, 0, 0,0.1) 0% , rgba(0, 0, 0,0.1) 100%) , #e36d21  100% / cover no-repeat; */
+    overflow: hidden;
+    width: 100%;
+    min-height: 120vh;
+    background-image: url(../assets/images/footer-bg-1.png);
+    background-size: cover;
+    background-position: bottom center;
+
+}
+
+.about-me-section .about-me-continer {
+    padding-inline: 12px;
+    width: 100%;
+}
+
+.about-me-section .about-me-continer .about-me-title {
+    margin-bottom: 3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--first-font);
+}
+
+.about-me-section .about-me-continer .about-me-title h2 {
+    opacity: 0.1;
+    font-weight: 600;
+    line-height: 1.3;
+    font-size: 8.25rem;
+    color: var(--grey-color);
+    text-transform: uppercase;
+    display: block;
+    font-family: var(--first-font);
+    animation: rotateText 5s 0.5s ease-in-out infinite;
+}
+
+@keyframes rotateText {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.about-me-section .about-me-continer .about-me-title p {
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: #000324;
+    line-height: 1.5;
+    position: absolute;
+    font-family: var(--first-font);
+}
+
+.about-me-section .about-me-continer .about-me-title p span {
+    background-color: #000324;
+    font-weight: 600;
+    width: 80px;
+    height: 2.4px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.about-me-section .about-me-continer .about-me-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.about-me-section .about-me-continer .about-me-content .about-me-information {
+    max-width: 62%;
+}
+
+.about-me-section .about-me-continer .about-me-content .about-me-information h2 {
+    color: #000324;
+    font-weight: 600;
+    font-family: var(--first-font);
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.about-me-section .about-me-continer .about-me-content .about-me-information h2 .h2-name {
+    color: var(--grey-color);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.about-me-section .about-me-continer .about-me-content .about-me-information .information {
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--grey-color);
+    font-family: var(--first-font);
+}
+
+.about-me-section .about-me-continer .about-me-content .about-me-contact {
+    max-width: 40%;
+}
+
+.about-me-section .about-me-continer .about-me-content .about-me-contact ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    font-family: var(--first-font);
+}
+
+.about-me-section .about-me-continer .about-me-content .about-me-contact ul li {
+    border-bottom: 1px solid rgba(0, 3, 36, 1);
+    width: 100%;
+    color: var(--grey-color);
+    font-weight: 500;
+}
+
+.about-me-section .about-me-continer .about-me-content .about-me-contact ul li a {
+    color: var(--grey-color);
+    font-weight: 500;
+}
+
+.about-me-section .about-me-continer .about-me-content .about-me-contact ul li h3 {
+    display: inline-block;
+    color: #000324;
+    font-weight: 600;
+    margin-right: .5rem;
+    font-family: var(--first-font);
+}
+
+.about-me-section .about-me-continer .Experience-part {
+    overflow: hidden;
+    margin-top: 4rem;
+    width: 100%;
+    /* height: 8rem; */
+}
+
+.about-me-section .about-me-continer .Experience-part .Experience-continer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+}
+
+.about-me-section .about-me-continer .Experience-part .Experience-continer .col-6 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    width: calc((100% - 9rem) / 4);
+    border-right: 1px dotted rgba(0, 3, 36, 1);
+    border-bottom: 1px dotted rgba(0, 3, 36, 1);
+}
+
+.about-me-section .about-me-continer .Experience-part .Experience-continer .col-6:hover {
+    -moz-transform: rotate(360deg);
+    /* WebKit */
+    -webkit-transform: rotate(360deg);
+    /* Opera */
+    -o-transform: rotate(360deg);
+    /* Standard */
+    transform: rotate(360deg);
+    transition: 1s linear;
+}
+
+.about-me-section .about-me-continer .Experience-part .Experience-continer .col-6 .featured-box {
+    text-align: center;
+    position: relative;
+}
+
+.about-me-section .about-me-continer .Experience-part .Experience-continer .col-6 .featured-box .text-12 {
+    line-height: 1.3;
+    font-family: var(--first-font);
+    font-weight: 500;
+    font-size: 3rem;
+    color: #000324;
+    font-family: var(--first-font);
+}
+
+.about-me-section .about-me-continer .Experience-part .Experience-continer .col-6 .featured-box .text-light {
+    color: var(--grey-color);
+    line-height: 1.8;
+    font-weight: 400;
+    font-family: var(--first-font);
+}
+
+/*==============================
+  end about me section
+===============================*/
+/*==============================
+  START skills section
+===============================*/
+.skills-section {
+    padding-left: 5.25rem;
+    padding-right: 5.25rem;
+    padding-block: 4.5rem;
+    background-color: var(--blue-color);
+    overflow: hidden;
+    width: 100%;
+    min-height: 120vh;
+    background-image: url(../assets/images/5.png);
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.skills-section .skills-continer {}
+
+.skills-section .skills-continer .skills-title {
+    margin-bottom: 3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--first-font);
+}
+
+.skills-section .skills-continer .skills-title h2 {
+    opacity: 0.1;
+    font-weight: 600;
+    line-height: 1.3;
+    font-size: 8.25rem;
+    color: #999da0;
+    text-transform: uppercase;
+    display: block;
+    animation: rotateText 5s 0.5s ease-in-out infinite;
+}
+
+@keyframes rotateText {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+
+.skills-section .skills-continer .skills-title p {
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: #e36d21;
+    line-height: 1.5;
+    position: absolute;
+    font-family: var(--first-font);
+}
+
+.skills-section .skills-continer .skills-title p span {
+    background-color: #e36d21;
+    font-weight: 600;
+    width: 80px;
+    height: 2.4px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+
+
+/*==============================
+  End skills section
+===============================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============================
+  start media
+===============================*/
+
+@media (max-width: 450px) {
+    nav {
+        opacity: 0;
+    }
+
+    .main-sections .main-sections-continer .header-section {
+        min-height: 120vh;
+        overflow: hidden;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text {
+        padding-top: 80px;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text h1 {
+        font-size: 16px;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text h1 {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 0.5;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    nav {
+        opacity: 0;
+    }
+
+    .main-sections .main-sections-continer .header-section {
+        height: 110vh;
+        overflow: hidden;
+        background-position: left;
+        background: linear-gradient(to right, rgba(0, 3, 36, 0.6) 50%, rgba(0, 3, 36, 0.8) 50%), url(/resources/assets/images/programming-background-collage\ \(1234\).jpg) 0% / cover no-repeat;
+    }
+
+    .main-sections .main-sections-continer {
+        padding-left: 0px;
+    }
+
+    .main-sections .main-sections-continer .header-section {
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content {
+        padding-inline: 10px;
+        padding-top: 80px;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text h1 {
+        margin-bottom: 20px;
+        margin-top: 0px;
+        font-size: 36px;
+        line-height: 0.5;
+        max-width: 100%;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text p {
+        font-weight: 400;
+        margin-bottom: 50px;
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 150px;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social .social-media {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social button {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text p span {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: 700;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text h2 span {
+        margin-bottom: 20px;
+        position: relative;
+        top: -1.25px;
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    nav {
+        opacity: 0;
+    }
+
+    .main-sections .main-sections-continer .header-section {
+        height: 110vh;
+        overflow: hidden;
+        background-position: left;
+        background: linear-gradient(to right, rgba(0, 3, 36, 0.7) 50%, rgba(0, 3, 36, 0.9) 50%), url(/resources/assets/images/programming-background-collage\ \(1234\).jpg) 0% / cover no-repeat;
+    }
+
+    .main-sections .main-sections-continer {
+        padding-left: 0px;
+    }
+
+    .main-sections .main-sections-continer .header-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content {
+        padding-inline: 10px;
+        margin-top: 80px;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text h1 {
+        margin-bottom: 20px;
+        margin-top: 0px;
+        font-size: 60px;
+        line-height: 0.5;
+        max-width: 100%;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text p {
+        font-weight: 400;
+        margin-bottom: 50px;
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text .social {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        width: 100%;
+        height: 150px;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text p span {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text h2 {
+        margin-bottom: 20px;
+        font-size: 40px;
+        font-weight: 700;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .main-sections .main-sections-continer .header-section .header-continer .left-row-content .left-row-text h2 span {
+        margin-bottom: 20px;
+        position: relative;
+        top: -1.25px;
+        font-size: 40px;
+    }
+}
