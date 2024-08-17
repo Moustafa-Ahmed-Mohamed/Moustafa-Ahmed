@@ -560,7 +560,6 @@ nav .navbar ul li a div :nth-child(9):hover {
     background-image: url(../assets/images/footer-bg-1.png);
     background-size: cover;
     background-position: bottom center;
-
 }
 
 .about-me-section .about-me-continer {
@@ -913,6 +912,73 @@ nav .navbar ul li a div :nth-child(9):hover {
         line-height: 0.5;
         max-width: 100%;
     }
+
+    /* about section */
+
+    .about-me-section {
+        padding-inline: 10px;
+        padding-block: 2rem;
+        overflow: hidden;
+        width: 100%;
+        min-height: 120vh;
+    }
+
+    .about-me-section .about-me-continer .about-me-title {
+        margin-bottom: 1rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-title h2 {
+        opacity: 0.1;
+        font-weight: 600;
+        line-height: 1.3;
+        font-size: 3rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-title p {
+        font-size: 2rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-information {
+        max-width: 100%;
+    }
+
+    .about-me-section .about-me-continer .about-me-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-contact {
+        max-width: 100%;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-information h2 {
+        font-size: 1.5rem;
+
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-information h2 .h2-name {
+        font-size: 1.7rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-information .info {
+        display: none;
+    }
+
+    .about-me-section .about-me-continer .Experience-part .Experience-continer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .about-me-section .about-me-continer .Experience-part .Experience-continer .col-6 {
+        min-width: 100%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -999,6 +1065,76 @@ nav .navbar ul li a div :nth-child(9):hover {
         font-size: 30px;
     }
 
+    /* about section */
+    .about-me-section {
+        padding-inline: 10px;
+        padding-block: 2rem;
+        overflow: hidden;
+        width: 100%;
+        min-height: 120vh;
+    }
+
+    .about-me-section .about-me-continer .about-me-title {
+        margin-bottom: 1rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-title h2 {
+        opacity: 0.1;
+        font-weight: 600;
+        line-height: 1.3;
+        font-size: 4rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-title p {
+        font-size: 2.5rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-information {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .about-me-section .about-me-continer .about-me-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-contact {
+        min-width: 100%;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-information h2 {
+        font-size: 1.5rem;
+
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-information h2 .h2-name {
+        font-size: 1.7rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-information .info {
+        display: none;
+    }
+
+    .about-me-section .about-me-continer .Experience-part .Experience-continer {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-contact ul li h3 {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .about-me-section .about-me-continer .Experience-part .Experience-continer .col-6 {
+        width: calc((100% - 2rem) / 2);
+    }
+
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
@@ -1069,5 +1205,74 @@ nav .navbar ul li a div :nth-child(9):hover {
         position: relative;
         top: -1.25px;
         font-size: 40px;
+    }
+
+    /* about section */
+    .about-me-section {
+        padding-inline: 20px;
+        padding-block: 2rem;
+        overflow: hidden;
+        width: 100%;
+        min-height: 120vh;
+    }
+
+    .about-me-section .about-me-continer .about-me-title {
+        margin-bottom: 1rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-title h2 {
+        opacity: 0.1;
+        font-weight: 600;
+        line-height: 1.3;
+        font-size: 5.5rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-title p {
+        font-size: 3rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-information {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .about-me-section .about-me-continer .about-me-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-contact {
+        min-width: 100%;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-information h2 {
+        font-size: 2rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-information h2 .h2-name {
+        font-size: 2.2rem;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-contact ul li h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .about-me-section .about-me-continer .about-me-content .about-me-information .info {
+        display: none;
+    }
+
+    .about-me-section .about-me-continer .Experience-part .Experience-continer {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .about-me-section .about-me-continer .Experience-part .Experience-continer .col-6 {
+        width: calc((100% - 2rem) / 2);
     }
 }
